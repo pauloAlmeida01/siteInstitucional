@@ -4,11 +4,13 @@ body {
     background-color: black;
 }
 
+
 .header {
     color: #32b9cd;
     border-bottom: solid 3px #32b9cd;
     /* border: solid 3px green; */
 }
+
 
 .container {
     /* border: solid 3px yellow; */
@@ -22,14 +24,26 @@ body {
     justify-content: space-between;
 }
 
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
 .navbar {
     display: flex;
     width: 600px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
     list-style: none;
     align-items: center;
+
 }
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* Banner */
 
